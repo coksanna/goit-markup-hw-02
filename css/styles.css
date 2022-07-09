@@ -1,0 +1,197 @@
+
+/* белый color: #FFFFFF */
+/* голубой color: #2196F3 */
+/* черный: #212121; серый color: #757575;  */
+/*  футер color: rgba(255, 255, 255, 0.6);*/
+/* вторичный фон background: #F5F4FA;  */
+:root { 
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #757575;
+    --secondary-text-color: #FFFFFF;
+    --title-color:#212121; 
+    --accent-color: #2196F3;
+    --main-background-color:#E5E5E5;
+    --secondary-background-color:#F5F4FA;
+    --dark-background-color: #2F303A;
+
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: var(--primary-font);
+    background: var(--main-background-color);
+}
+/* =================COMPONENTS=============== */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+/* ===================HEADER================= */
+.page-header {
+    background-color:var(--primary-background-color);
+}
+
+.logo-header {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--title-color);
+    }
+.web {
+    color: var(--accent-color);
+}    
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+    color: var(--title-color);      
+}
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color); 
+}
+/* =================/HEADER=================== */
+
+/* ===================HERO==================== */
+.hero {
+    background-color: var(--dark-background-color);
+}
+.hero-title {
+   font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;            
+    background-color: #2196F3;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color:#188CE8;
+}
+/* ====================/HERO==================== */
+
+/* ====================FEATURE================== */
+.suptitle { 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--title-color);
+}
+.menu-feature {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71pc;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+/* ====================/FEATURE================== */
+
+/* ====================SPESIALTY================= */
+
+/* ===================/SPESIALTY================= */
+
+/* ====================COMMAND=================== */
+.command {
+    background: var(--secondary-background-color);
+}
+.command-suptitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color)
+}
+.menu-command {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+/* ===================/COMMAND=================== */
+
+/* ===================FOOTER===================== */
+.page-footer {
+    background: #2F303A;      
+}
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.menu-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;   
+    letter-spacing: 0.03em;
+}
+.adress-item {
+    color: var(--secondary-text-color);
+}
+.email-item {
+    color: rgba(255, 255, 255, 0.6);
+}
+.phone-item {
+    color: rgba(255, 255, 255, 0.6); 
+}
+.adress-item:hover,
+.adress-item:focus {
+    color: var(--accent-color);
+}
+.email-item:hover,
+.email-item:focus {
+    color: var(--accent-color);
+}
+.phone-item:hover,
+.phone-item:focus {
+    color: var(--accent-color);
+}
