@@ -24,7 +24,6 @@ body {
 }
 /* =================COMPONENTS=============== */
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -40,6 +39,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-color);
     background-color: var(--button-background-color);
+    cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -77,7 +77,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -85,12 +85,6 @@ body {
 }
 .current {
     color: var(--accent-color);
-}
-.project-suptitle {
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: var(--title-color);
 }
 /* =================/HEADER=================== */
 
@@ -124,7 +118,6 @@ body {
 
 /* ====================FEATURE================== */
 .suptitle { 
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -134,7 +127,7 @@ body {
 .menu-feature {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71pc;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
@@ -159,7 +152,7 @@ body {
 .menu-command {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
@@ -170,15 +163,21 @@ body {
 .project-link {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.87ex;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+}
+.project-suptitle {
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
 }
 /* ==================/PROJECTS=================== */
 
 /* ===================FOOTER===================== */
 .page-footer {
-    background: #2F303A;      
+    background: var(--dark-background-color);     
 }
 .logo-footer {
     font-family: var(--secondary-font);
